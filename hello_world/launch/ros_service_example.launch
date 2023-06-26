@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="hello_world" type="service_server_node.py" name="service_server_node" output="screen"></node>
+    <node pkg="hello_world" type="service_client_node.py" name="service_client_node" output="screen"></node>
+</launch>
